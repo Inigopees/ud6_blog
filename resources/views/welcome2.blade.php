@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('content') 
+ 
     <div class="row">
       <!-- Post Content Column -->
       <div class="col-lg-8">
@@ -72,5 +72,6 @@
 
       </div>
     </div>
-    <!-- /.row --> 
+    <!-- /.row -->
+  
 @endsection()  
