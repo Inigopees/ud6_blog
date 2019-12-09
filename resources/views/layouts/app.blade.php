@@ -22,8 +22,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <img src="" alt="imagen_junto_a_usuario">
-      <a class="navbar-brand" href="#">Iñigo Perez</a>
+      <img src="img/logo.jpg" alt="imagen_junto_a_usuario" height="2%" width="10%">
+      <a class="navbar-brand ml-2" href="#">Iñigo Perez</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,7 +41,7 @@
 
    <!-- Page Content -->
    <div class="container">
-    @
+   @yield('content')
    </div>
   <!-- /.container -->
 
