@@ -11,10 +11,10 @@
   <title>Blog Post  - Start Bootstrap Template</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{url('css/bootstrap.min.css')}}" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/blog-post.css" rel="stylesheet">
+  <link href="{{url('css/blog-post.css')}}" rel="stylesheet">
 
 </head>
 
@@ -22,15 +22,25 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <img src="img/logo.jpg" alt="imagen_junto_a_usuario" height="2%" width="10%">
+      <img src="" alt="" height="2%" width="10%">
       <a class="navbar-brand ml-2" href="#">Iñigo Perez</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="{{route('login')}}">Login
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+            <a class="nav-link" href="{{route('Registro')}}">Registro
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{route('/')}}">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
