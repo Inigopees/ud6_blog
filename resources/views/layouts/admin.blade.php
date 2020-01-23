@@ -15,8 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="{{url('css/blog-post.css')}}" rel="stylesheet">
-    <!-- Stylo iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -58,7 +57,7 @@
 
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
+<footer class="py-5 bg-dark fixed-bottom">
     <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Desarrollo web en entorno servidor 2020</p>
     </div>

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.users')
 
 @section('content')
 <div class="container">
@@ -13,15 +13,11 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in !
                 </div>
             </div>
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-md-10">
-
-        </div>
-    </div>
+    
 </div>
 @endsection

@@ -25,3 +25,10 @@ Route::get('/Registro',function(){
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::post('/Post/{id}','PostController@update')->name('update');
+
+Route::get('/Post/delete/{id}','PostController@destroy')->name('delete');
+
+Route::Resource('/Post','PostController');
+
+

@@ -15,8 +15,8 @@
 
   <!-- Custom styles for this template -->
   <link href="{{url('css/blog-post.css')}}" rel="stylesheet">
-    <!-- Stylo iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Stylo iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -24,24 +24,20 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <img src="" alt="" height="2%" width="10%">
-      <a class="navbar-brand ml-2" href="#">Iñigo Perez</a>
+      <a class="navbar-brand ml-2" href="{{route('/')}}">Iñigo Perez</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="{{route('login')}}">Login
+          <li class="nav-item active">
+            <a class="nav-link" href="{{route('Post.index')}}">Administrar Posts
               <span class="sr-only">(current)</span>
             </a>
           </li>
+          
           <li class="nav-item active">
-            <a class="nav-link" href="{{route('Registro')}}">Registro
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="{{route('/')}}">Home
+            <a class="nav-link" href="{{route('home')}}">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -58,7 +54,7 @@
 
 
 <!-- Footer -->
-<footer class="py-5 bg-dark">
+<footer class="py-5 bg-dark ">
     <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; Desarrollo web en entorno servidor 2020</p>
     </div>
