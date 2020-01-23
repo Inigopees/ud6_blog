@@ -40,4 +40,8 @@ class User extends Authenticatable
     public function mensajes(){
         return $this->hasMany('App\Post');
     }
+
+    public function rol(){
+        return $this->belongsToMany('App\Role');
+    }
 }
